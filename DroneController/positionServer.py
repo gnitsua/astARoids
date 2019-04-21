@@ -19,7 +19,7 @@ class PositionServer():
 
 if __name__ == "__main__":
     ps = PositionServer("5556")
-    tracker = ArucoCornerTracker()
+    tracker = ArucoCornerTracker('webcam.npz')
     client = VideoClient('192.168.1.1', 5555)
     client.connect()
     client.video_ready.wait()
