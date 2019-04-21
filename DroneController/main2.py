@@ -1,6 +1,5 @@
 import cv2
 from pyardrone.video import VideoClient
-import png
 
 import logging
 

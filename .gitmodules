@@ -1,3 +1,6 @@
 [submodule "Asteroids"]
 	path = Asteroids
 	url = https://github.com/gnitsua/Asteroids
+[submodule "DroneController/TrackMarkers"]
+	path = DroneController/TrackMarkers
+	url = https://github.com/gnitsua/TrackMarkers
